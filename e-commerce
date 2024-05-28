@@ -1,0 +1,611 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegetables</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">VEGGIEES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <button class="btn"><a href="sign.html">Sign In</a></button>
+          </div>
+        </div>
+      </nav>
+      <!--home-->
+      <section id="home">
+           <h1 class="text-center">FRESH VEGETABLES</h1>
+           <p>Fleshy fresh vegetables,buy and enjoy the cook..!</p>
+           <div class="input-group m-4">
+              <input type="text" class="form-control" placeholder="Email address">
+               <button class="btn signin">Get Started </button>
+           </div>
+      </section>
+      <!--about-->
+      <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                   <img src="aab-removebg-preview.png" alt="" width="800px" height="2000px" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2">
+                   <h1> About Us</h1>
+                   <p>At Fresh Harvest, we’re passionate about bringing you the freshest, most flavorful vegetables directly from our local farms. With over 10 years of experience, we’ve built strong relationships with more than 3,000 farmers. Our mission is simple: to deliver farm-to-table freshness. Whether you’re an institutional buyer or an SME buyer, we make it easy to order and receive your vegetables securely. For sellers, our platform offers seamless scheduling and direct payments. Join the go4fresh Ecosystem and experience the goodness of fresh produce!
+                    <br>
+                    <br>
+                    <h5 style="color: black;">Sources:</h5><br>
+
+<li>Trusted Marketplace For Fruits and Vegetables | Go4Fresh</li> <br>
+<li>Agriculture & Farm Websites: 30 Well-Designed Examples </li><br>
+<li>How to Sell Vegetables Online | Start a Vegetable Business with us </li><br>
+<li>How to sell vegetables online - GoDaddy Resources - India</li><br>
+ <li>Fresh Vegetables Online | Fresh Produce Shoppe</li> <br>
+                   </p>
+               </div>
+            </div>
+        </div>
+      </section>
+    <!--contact-->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 c0l-md-4 col-12">
+        </div>
+        <div class="col-lg-4 c0l-md-4 col-12">
+            <h1>Contact Us</h1>
+            <form action="">
+              <input type="text" class="form-control" placeholder="Enter your name" name="" id="">
+              <input type="text" class="form-control" placeholder="Enter your email" name="" id="">
+              <textarea class="form-control" placeholder="Enter your message" name=" id="></textarea>
+              <button id="MYBUTTON" class="btn btn-primary">send message</button>
+            </form>
+        </div>
+      </div>
+
+    </div>
+    <footer>Copyrights are @Rashika 2024</footer>
+  </section>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script>
+      const button = document.getElementById('MYBUTTON');
+      button.addEventListener('click', function() {
+        alert('We will contact you soon');
+      });
+    </script>
+</body>
+</html>
+<!--product.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegetables</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">VEGGIEES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <button class="btn"><a href="sign.html">Sign In</a></button>
+          </div>
+        </div>
+      </nav>
+      <!--products-->
+      <section id="product">
+        <div class="container">
+            <h1 class="text-center my-1">Our Products</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="OIP (7).jpg"width="200px" height="300px" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Tomato</h5>
+                      <p class="card-text">1kg rs.30</p>
+                      <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="OIP (8).jpg" width="200px" height="300px" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Ginger</h5>
+                      <p class="card-text">100g rs.25</p>
+                      <a href="#" id="bts" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="OIP (6).jpg"width="200px" height="300px" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Lady's Finger</h5>
+                      <p class="card-text">1kg rs.40</p>
+                      <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                      <img src="OIP (2).jpg"width="200px" height="300px" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Cabbage</h5>
+                        <p class="card-text">1pc rs.35</p>
+                        <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                      <img src="OIP (4).jpg" width="200px" height="300px" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Cuccumber</h5>
+                        <p class="card-text">500g rs.35</p>
+                        <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                      <img src="OIP (5).jpg"width="200px" height="300px" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">carrot</h5>
+                        <p class="card-text">1kg rs.40</p>
+                        <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="OIP (9).jpg"width="200px" height="300px" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Garlic</h5>
+                      <p class="card-text">25og rs.20</p>
+                      <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="radish-008.jpg" width="200px" height="300px" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Raddish</h5>
+                      <p class="card-text">1kg rs.75</p>
+                      <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="small onion.webp"width="200px" height="300px" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Small Onion</h5>
+                      <p class="card-text">1kg rs.58</p>
+                      <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                  <img src="thumb_3.avif"width="200px" height="300px" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Potato</h5>
+                    <p class="card-text">1kg rs.37</p>
+                    <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                  <img src="cabbage_01.jpg" width="200px" height="300px" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Cabbage</h5>
+                    <p class="card-text">1pc rs.30</p>
+                    <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                  <img src="Brinjal.jpg"width="200px" height="300px" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Brinjal</h5>
+                    <p class="card-text">1kg rs.45</p>
+                    <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="drum-sticks-500x500.webp"width="200px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Drumstick</h5>
+                  <p class="card-text">250g rs.25</p>
+                  <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="chilli.jpg" width="200px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Green Chilly</h5>
+                  <p class="card-text">250g rs.15</p>
+                  <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="food3052421605760108564255.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Onion</h5>
+                  <p class="card-text">1kg rs.35</p>
+                  <a href="#" id="bt" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        </div>
+      </section>
+  <!--contact-->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 c0l-md-4 col-12">
+        </div>
+        <div class="col-lg-4 c0l-md-4 col-12">
+            <h1>Contact Us</h1>
+            <form action="">
+              <input type="text" class="form-control" placeholder="Enter your name" name="" id="">
+              <input type="text" class="form-control" placeholder="Enter your email" name="" id="">
+              <textarea class="form-control" placeholder="Enter your message" name=" id="></textarea>
+              <button id="MYBUTTON" class="btn btn-primary">send message</button>
+            </form>
+        </div>
+      </div>
+
+    </div>
+    <footer>Copyrights are @Rashika 2024</footer>
+  </section>
+  <script>
+    const button = document.getElementById('MYBUTTON');
+    button.addEventListener('click', function() {
+      alert('We will contact you soon');
+    });
+    const button2 = document.getElementById('bt');
+    button2.addEventListener('click', function() {
+      alert('the product added to cart');
+    });
+  </script>
+  
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+  </html>
+<!--sign.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section id="sign">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 c0l-md-4 col-12">
+            </div>
+            <div class="col-lg-4 c0l-md-4 col-12">
+                <h1>Sign Up</h1>
+                <form action="index.html">
+                    <label for="name">Name:</label>
+                  <input type="text" required class="form-control" placeholder="Enter your name" name="name" id="name">
+                  <label for="name">Email:</label>
+                  <input type="text" required class="form-control" placeholder="Enter your email" name="email" id="email">
+                  <label for="name">Password::</label>
+                  <input type="text" required class="form-control" minlength="5" placeholder="Enter your password" name="password" id="password">
+                  <button id="myButton" class="btn btn-primary">submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </section>
+    <script>
+      const button = document.getElementById('myButton');
+      button.addEventListener('click', function() {
+        alert('SIGNED UP SUCCESSFULLY');
+      });
+    </script>
+    
+</body>
+</html>
+<!--index.css-->
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: rgb(41, 144, 86);
+    color: rgb(220, 245, 227) important;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(9, 65, 23);
+}
+#navbarNav a{
+ color: azure;
+ border-bottom: 2px solid transparent;
+}
+#navbarNav a:hover{
+    border-bottom: 2px solid rgb(9, 61, 9);
+}
+.navbar button{
+background: rgb(212, 243, 205);
+width: 5rem;
+border-radius: 10px;
+padding: 7px;
+color: black;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**home**/
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(293831.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#home p{
+    font-size: 20px;
+    color: white;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: rgb(24, 79, 24) !important;
+    color: rgb(6, 0, 0) !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+/**about**/
+
+#about{
+    background: linear-gradient(#3ba057,rgb(167, 198, 174) 100%);
+}
+#about img{
+    padding: 120px 50px;
+}
+#about h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #1b512a;
+
+}
+/**products**/
+
+#product{
+    background: white;
+}
+#product h1{
+    padding: 50px;
+    margin: 20px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #1b512a;
+}
+#product img{
+    width:"200px";
+    height:"300px";
+}
+.card{
+    width: 300px;
+    height:250px;
+    background: white;
+    border:none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+#product .btn-primary{
+           background-color: #3ba057;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                4px 4px 10px white;
+}
+
+/**contact**/
+#contact{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(OIP\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+#contact h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #5ef388;
+}
+
+#contact .btn-primary{
+    background-color: #3ba057;
+}
+.box{
+    width: 80%;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 120px;
+    text-align: center;
+    color: beige;
+    padding: 3px;
+}
+/**signin**/
+
+#sign{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(OIP.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+#sign h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #5ef388;
+    padding: 20px;
+}
+
+#sign .btn-primary{
+    background-color: #3ba057;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: aliceblue;
+    width: 5rem;
+    border-radius: 10px;
+    padding: 3px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#sign input{
+    margin: 10px 0px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#sign label{
+    color: beige;
+}
+@media screen and (max-width:576px) {
+    #home h1{
+        font-size: 55px;
+    }
+    #home p{
+        font-size: 15px;
+    }
+    #home{
+        background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(293831.jpg);
+        background-size: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    section{
+        width: 100%;
+        min-height: 60vh;
+    }
+    .card{
+        width: 250px;
+        height:50px;
+    }
+    #home .input-group{
+        width: 80%;
+        height: 30px;
+    }
+}
